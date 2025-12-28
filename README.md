@@ -1,6 +1,7 @@
 # HGLMA
 ## Overview
-
+\
+Hypergraph learning with multi-modal feature extractions and multi-attention mechanisms to tease out missing reactions in metabolic networks.\
 ```HGLMA``` is a computational framework designed for predicting missing reactions (gap-filling) in genome-scale metabolic models (GEMs). It leverages a combination of a Hypergraph and a multi-head attention mechanism to learn complex dependencies within the metabolite-reaction hypergraph. The framework computes prediction scores for candidate reactions, which are then integrated with a calculated biochemical similarity score for final ranking and selection of reactions to be added to the model.
 
 ## Description
