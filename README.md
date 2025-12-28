@@ -13,7 +13,7 @@ Here we have four folders: \
 
 ## System Requirements
 ### Dependencies
-The proposed model be implemented and trained by using ```Python 3.8``` and ```PyTorch 2.1.0``` with ```CUDA 12.1``` and an ```NVIDIA 4090``` graphics card.\
+The proposed model be implemented and trained by using ```Python 3.8``` and ```PyTorch 2.1.0``` with ```CUDA 12.1``` and an ```NVIDIA RTX4090``` graphics card.\
 The package depends on the Python scientific stack:
 
 ```
