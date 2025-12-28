@@ -49,7 +49,7 @@ Users are required to additionally install the ```cplex``` solver (https://www.i
 
 1. The folder ```HGLMA_gapfilling/BiGG Models``` contains 1 GEM from Zimmermann et al. as examples. GEM is a xml file.
 
-The draft GEM is derived from: Zimmermann, J., Kaleta, C. & Waschina, S. gapseq: informed prediction of bacterial metabolic pathways and reconstruction of accurate metabolic models. Genome Biol 22, 81 (2021). https://doi.org/10.1186/s13059-021-02295-1
+The draft GEM is derived from: Zimmermann, J., Kaleta, C. & Waschina, S. gapseq: informed prediction of bacterial metabolic pathways and reconstruction of accurate metabolic models. Genome Biol 22, 81 (2021).
 
 2. The folder ```HGLMA_gapfilling/data/pools``` need to contain a reaction pool under name ```bigg_universe.xml```. Each pool is a GEM that has the extension ```.xml```. To use your own pool, remember to rename it to ```universe.xml```. Also remember to edit ```EX_SUFFIX``` and ```NAMESPACE``` in the input_parameters.txt to specify the suffix of exchange reactions and which namespace of biochemical reaction database is used. For ```NAMESPACE```, we currently only support ```bigg```.
 
