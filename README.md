@@ -38,7 +38,7 @@ openpyxl: 3.1.5
 Users are required to additionally install the ```cplex``` solver (https://www.ibm.com/analytics/cplex-optimizer) from IBM to run the package. Note that cplex only works with certain python versions (e.g., CPLEX_Studio12.10 has APIs for python3.6 an python3.7).
 
 ## Usage
-- We extracted metabolite features from metabolite SMILES and molecular structures using the pre-trained models ```ChemBERTa``` and ```GraphMVP```, respectively. The pre-generated metabolite features are available at the link below. 
+- We extracted metabolite features from metabolite SMILES and molecular structures using the pre-trained models ```ChemBERTa``` and ```GraphMVP```, respectively. The pre-generated metabolite features are available at the ([download link](https://drive.google.com/file/d/1-21en06Ds1Bo11ljRYP-1qelxAb91QJb/view?usp=sharing)). 
 - The link to the pre-trained model ```ChemBERTa``` is as follows: https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1
 - The link to the pre-trained model ```GraphMVP``` is as follows: https://github.com/chao1224/GraphMVP
 - If you wang to use ```/HGLMA```, please just download pre-trained node embedding files for all metabolites **`metabolite_emb_2816.pkl`** ([download link](https://drive.google.com/file/d/1-21en06Ds1Bo11ljRYP-1qelxAb91QJb/view?usp=sharing)) and place it in the `data` folder.
