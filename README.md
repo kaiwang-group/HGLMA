@@ -5,7 +5,7 @@
 
 ## Description
 Here we have four folders: \
-```HGLMA``` is for the evaluation of reaction prediction performance.\
+```HGLMA_prediction``` is for the evaluation of reaction prediction performance.\
 ```HGLMA_recovery``` is for the evaluation of reaction recovery.\
 ```HGLMA_gapfilling``` is dedicated to the gap-filling of draft GEMs.\
 ```data``` folder contains all the experimental results and a trained model weight parameters file, which are also available in the supplementary materials.
@@ -41,7 +41,7 @@ Users are required to additionally install the ```cplex``` solver (https://www.i
 - We extracted metabolite features from metabolite SMILES and molecular structures using the pre-trained models ```ChemBERTa``` and ```GraphMVP```, respectively. The pre-generated metabolite features are available at the ([download link](https://drive.google.com/file/d/1-21en06Ds1Bo11ljRYP-1qelxAb91QJb/view?usp=sharing)). 
 - The link to the pre-trained model ```ChemBERTa``` is as follows: https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1
 - The link to the pre-trained model ```GraphMVP``` is as follows: https://github.com/chao1224/GraphMVP
-- If you wang to use ```HGLMA```, please just download pre-trained node embedding files for all metabolites **`metabolite_emb_2816.pkl`** ([download link](https://drive.google.com/file/d/1-21en06Ds1Bo11ljRYP-1qelxAb91QJb/view?usp=sharing)) and place it in the `data` folder.
+- If you wang to use ```HGLMA_prediction```, please just download pre-trained node embedding files for all metabolites **`metabolite_emb_2816.pkl`** ([download link](https://drive.google.com/file/d/1-21en06Ds1Bo11ljRYP-1qelxAb91QJb/view?usp=sharing)) and place it in the `data` folder.
 - If you wang to use ```HGLMA_recovery``` or ```HGLMA_gapfilling```, download pre-trained node embedding files for all metabolites **`metabolite_emb_2816.pkl`** ([download link](https://drive.google.com/file/d/1-21en06Ds1Bo11ljRYP-1qelxAb91QJb/view?usp=sharing)) and place it in the `data` folder, and download bigg reactions pool files for **`bigg_universe.xml`** ([download link](https://drive.google.com/file/d/1jORDo7qQt3pnjS2ZTqmFMrKckzDeZM4c/view?usp=sharing)) and place it in the `data/pools` folder.
 - To run the code, you need to navigate to the corresponding folder first, then type "python3 main.py" in your terminal.
 
