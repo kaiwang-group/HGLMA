@@ -45,7 +45,7 @@ Users are required to additionally install the ```cplex``` solver (https://www.i
 - To run the demonstration, you need to navigate to the corresponding folder first, then type "python3 main.py" in your terminal.
 
 
-### Prepare input files
+### Prepare your input files
 
 1. The folder ```HGLMA_gapfilling/BiGG Models``` contains 1 GEM from Zimmermann et al. as examples. GEM is a xml file.
 
