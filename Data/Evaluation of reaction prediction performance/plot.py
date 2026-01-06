@@ -2,7 +2,6 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# 1. Load the dataset (5 Fold files)
 files = [
     "HGLMA_108BiGG.xlsx - Fold_0.csv",
     "HGLMA_108BiGG.xlsx - Fold_1.csv",
@@ -14,30 +13,30 @@ files = [
 dfs = [pd.read_csv(f) for f in files]
 df = pd.concat(dfs, ignore_index=True)
 
-# 2. Data Preprocessing
+
 # Convert 'Acc' (percentage) to 'Accuracy' (0-1 scale)
 df['Accuracy'] = df['Acc'] / 100
 
-# Select the required metrics
+
 metrics = ['AUPRC', 'Recall', 'F1', 'Accuracy']
 plot_data = df[metrics]
 
-# Transform data to long format for Seaborn
+
 df_melted = plot_data.melt(var_name='Metric', value_name='Value')
 
-# 3. Plotting
+
 plt.figure(figsize=(10, 6))
 sns.set(style="whitegrid")
 
-# Create box plot with outliers hidden
-# showfliers=False is the parameter to hide outliers
+
+
 sns.boxplot(x='Metric', y='Value', data=df_melted, order=metrics, width=0.5, showfliers=False)
 
-# 4. Configuration
+
 plt.ylim(0.4, 1.0)
 plt.ylabel('Performance')
 plt.xlabel('')
 
-# Save or show
+
 plt.savefig('performance_boxplot_no_outliers.png', dpi=300, bbox_inches='tight')
 plt.show()
