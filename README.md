@@ -19,8 +19,9 @@ Here we have four folders: \
 
 
 ## System Requirements
-### Dependencies
-The proposed model be implemented and trained by using ```Python 3.8``` and ```PyTorch 2.1.0``` with ```CUDA 12.1``` and an ```NVIDIA RTX4090``` graphics card.\
+
+The proposed HGLMA has been implemented, trained by using ```Python 3.8``` and ```PyTorch 2.1.0``` with ```CUDA 12.1``` and an ```NVIDIA RTX4090``` graphics card.
+
 The package depends on the Python scientific stack:
 
 ```
@@ -42,7 +43,7 @@ node2vec: 0.4.6
 openpyxl: 3.1.5
 ```
 
-Users are required to additionally install the ```cplex``` solver (https://www.ibm.com/analytics/cplex-optimizer) from IBM to run the package. Note that cplex only works with certain python versions (e.g., CPLEX_Studio12.10 has APIs for python3.6 an python3.7).
+In addition, users are required to install the ```cplex``` solver (https://www.ibm.com/analytics/cplex-optimizer) from IBM to run the package. It is noted that cplex only works with certain python versions (e.g., CPLEX_Studio12.10 has APIs for python3.6 an python3.7).
 
 ## Usage
 - We extracted metabolite features from metabolite SMILES and molecular structures using the pre-trained models ```ChemBERTa``` and ```GraphMVP```, respectively.
