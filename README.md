@@ -11,12 +11,12 @@ The overall framework of HGLMA is shown in the following figure.
 ![HGLMA](https://raw.githubusercontent.com/JiaJun-Q/HGLMA/main/HGLMA.jpg)
 
 ## Description
-There are totally six folders, which are briefly described as below.   \
-- The folder ```Data``` contains the datasets for training and testing of HGLMA, and contains the summarized experimental results that are also available in the supplementary materials.\
-- The folder ```HGLMA_embeddings``` contains the script for multi-dimensional metabolite feature extractions.\
-- The folder ```HGLMA_prediction``` contains the scripts and corresponding files for the evaluation of reaction prediction performances. \
-- The folder ```HGLMA_recovery``` contains the scripts and corresponding files for the evaluation of reaction recovery.\
-- The folder ```HGLMA_ablation``` contains the scripts and corresponding files for the ablation study.\
+There are totally six folders, which are briefly described as below.   
+- The folder ```Data``` contains the datasets for training and testing of HGLMA, and contains the summarized experimental results that are also available in the supplementary materials.
+- The folder ```HGLMA_embeddings``` contains the script for multi-dimensional metabolite feature extractions.
+- The folder ```HGLMA_prediction``` contains the scripts and corresponding files for the evaluation of reaction prediction performances. 
+- The folder ```HGLMA_recovery``` contains the scripts and corresponding files for the evaluation of reaction recovery.
+- The folder ```HGLMA_ablation``` contains the scripts and corresponding files for the ablation study.
 - The folder ```HGLMA_gapfilling``` contains the scripts and corresponding files for gap-fillings and metabolic phenotype predictions. 
 
 
