@@ -379,8 +379,7 @@ class MultiHeadAttention(nn.Module):
         self.diag_mask_flag = diag_mask
         self.diag_mask = None
 
-    def pass_(self, inputs):
-        return inputs
+
 
     def forward(self, q, k, v, diag_mask, mask=None):
         d_k, d_v, n_head = self.d_k, self.d_v, self.n_head

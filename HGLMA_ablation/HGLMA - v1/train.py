@@ -15,8 +15,6 @@ import time
 from sklearn.model_selection import KFold
 import glob
 import torch.nn.functional as F
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, matthews_corrcoef, roc_auc_score, \
-    average_precision_score
 from scipy.sparse import csr_matrix
 from scipy.sparse import vstack as s_vstack
 import warnings
@@ -269,8 +267,7 @@ def train(args, net, classifier_model, m_emb, g, hg_pos, hg_neg, train_set, vali
             model_filename = f'trained_model_fold{fold}_{model_name}.pth'
             save_path = os.path.join(args.save_path, model_filename)
             torch.save(checkpoint, save_path)
-            logger.info(
-                f'[Saved Best Model] Fold {fold}, Epoch {epoch_i}, AUROC: {valid_results["auroc"]:.3f}, Path: {save_path}')
+
 
 
     model_filename = f'trained_model_fold{fold}_{model_name}.pth'
@@ -279,8 +276,7 @@ def train(args, net, classifier_model, m_emb, g, hg_pos, hg_neg, train_set, vali
         checkpoint = torch.load(save_path)
         net.load_state_dict(checkpoint['net'])
         classifier_model.load_state_dict(checkpoint['classifier_model'])
-        logger.info(
-            f'[Loaded Best Model] Fold {fold}, Epoch {checkpoint["epoch"]}, AUROC: {checkpoint["metrics"]["auroc"]:.3f}, Path: {save_path}')
+
     else:
         logger.warning(f'[Warning] No model found at {save_path}, using final model state.')
 

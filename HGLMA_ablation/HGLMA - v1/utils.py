@@ -241,7 +241,3 @@ def accuracy(output, target):
 	acc = torch.sum(pred.eq(truth))
 	acc = float(acc) * 1.0 / (truth.shape[0] * 1.0)
 	return acc
-
-
-def pass_(x):
-    return x

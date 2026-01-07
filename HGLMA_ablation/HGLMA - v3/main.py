@@ -20,14 +20,6 @@ from model import *
 from utils import *
 from train import *
 import matplotlib as mpl
-mpl.use("Agg")
-import multiprocessing
-cpu_num = multiprocessing.cpu_count()
-
-torch.backends.cudnn.benchmark = True
-torch.backends.cudnn.deterministic = False
-
-warnings.filterwarnings("ignore")
 
 
 def setup_logging(args):
@@ -35,7 +27,6 @@ def setup_logging(args):
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
 
-    log_file = os.path.join(log_dir, f'Multi_2816SMILES_lr{args.lr}_training_log_{time.strftime("%Y%m%d_%H%M%S")}.txt')
     logger = logging.getLogger()
     logger.setLevel(logging.INFO)
     for handler in logger.handlers[:]:
@@ -86,14 +77,11 @@ def parse_args():
 
 
 if __name__ == "__main__":
-    set_seed(0)
     device = torch.device("cuda:1") if torch.cuda.is_available() else torch.device('cpu')
     args = parse_args()
 
-    batch_size = 64
+    batch_size = 96
     bottle_neck = args.dimensions
-    pair_ratio = 0.9
-    train_type = 'hyper'
 
     metric_collector = {
         'valid_bce_loss': [],
@@ -141,7 +129,6 @@ if __name__ == "__main__":
         m_emb = initial_features
         results = []
 
-        all_folds_best_metrics = []
 
         for metric in metric_collector.values():
             metric.clear()
@@ -223,4 +210,3 @@ if __name__ == "__main__":
             writer.writeheader()
             for assignment in fold_assignments:
                 writer.writerow(assignment)
-        logger.info(f'Fold assignments saved to: {fold_assignments_file}')
