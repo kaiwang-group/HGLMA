@@ -66,8 +66,12 @@ In addition, users are required to install the ```cplex``` solver (https://www.i
 
 - The codes are available in the folder ```HGLMA_prediction``` for evaluting reaction prediction performances of HGLMA.
 - We can run the script ```HGLMA_prediction/main.py``` to conduct 5-fold cross-validations.
+- The folder ```Data/Trained model/Trained_model (prediction)/iBWG_1329``` contains the trained HGLMA models for 5-fold cross-validations on iBWG_1329 (one of the 108 GEMs). 
 - The evaluation results of prediction performances by HGLMA and baseline methods are summarized and available in ```Data/Dataset/xxxxx```
--
+
+### Ablation study
+
+- The codes are available in the folders ```HGLMA_prediction``` for evaluting reaction prediction performances of HGLMA.
 
 - If you wang to run ```HGLMA```, please download pre-trained node embedding files for all metabolites **`metabolite_emb_2816.pkl`** ([download link](https://drive.google.com/file/d/1-21en06Ds1Bo11ljRYP-1qelxAb91QJb/view?usp=sharing)) and place it in the `data` folder.
 - To run the code, you need to navigate to the corresponding folder first, then type "python3 main.py" in your terminal.
