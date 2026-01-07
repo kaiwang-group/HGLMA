@@ -58,8 +58,8 @@ In addition, users are required to install the ```cplex``` solver (https://www.i
 ### Multi-dimensional Metabolite Feature Extractions 
 
 - The codes are available in the folder ```HGLMA_embeddings```. We can extract multi-dimensional metabolite features from metabolite SMILES and molecular structures by using the pre-trained models ```ChemBERTa``` and ```GraphMVP```, respectively.
-- The link to the pre-trained model ```ChemBERTa``` is as follows: https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1
-- The link to the pre-trained model ```GraphMVP``` is as follows: https://github.com/chao1224/GraphMVP
+- The link to the pre-trained model ```ChemBERTa``` is as follows: https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1.
+- The link to the pre-trained model ```GraphMVP``` is as follows: https://github.com/chao1224/GraphMVP.
 - For the running of other codes of training and testing HGLMA, we can download the embedding files for all metabolites **`metabolite_emb_2816.pkl`** ([download link](https://drive.google.com/file/d/1-21en06Ds1Bo11ljRYP-1qelxAb91QJb/view?usp=sharing)). 
 
 ### Evaluation of Reaction Prediction Performance
