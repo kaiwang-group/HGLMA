@@ -65,13 +65,21 @@ In addition, users are required to install the ```cplex``` solver (https://www.i
 ### Evaluation of Reaction Prediction Performance
 
 - The codes are available in the folder ```HGLMA_prediction``` for evaluting reaction prediction performances of HGLMA.
-- We can run the script ```HGLMA_prediction/main.py``` to conduct 5-fold cross-validations.
+- We can run the script ```HGLMA_prediction/main.py``` to conduct 5-fold cross-validations of HGLMA on 108 GEMs. 
 - The folder ```Data/Trained model/Trained_model (prediction)/iBWG_1329``` contains the trained HGLMA models for 5-fold cross-validations on iBWG_1329 (one of the 108 GEMs). 
-- The evaluation results of prediction performances by HGLMA and baseline methods are summarized and available in ```Data/Dataset/xxxxx```
+- The evaluation results of prediction performances by HGLMA and baseline methods are summarized and available in ```Data/Evaluation of reaction prediction performances```.
 
-### Ablation study
+### Evaluation of reaction recovery
 
-- The codes are available in the folders ```HGLMA_prediction``` for evaluting reaction prediction performances of HGLMA.
+- The codes are available in the folder ```HGLMA_prediction``` for evaluting reaction recovery performances of HGLMA.
+-  
+
+
+### Ablation Study
+
+- The codes in the folders ```HGLMA_ablation/HGLMA - v1```, ```HGLMA_ablation/HGLMA - v2```, and ```HGLMA_ablation/HGLMA - v3``` correspond to three variants of HGLMA for the ablation study. 
+- For instance, we can run the script ```HGLMA_ablation/HGLMA - v1/main.py``` to conduct 5-fold cross-validations  of the variant HGLMA-v1 on 108 GEMs.  
+- The results of the ablation study are summarized and available in  ```Data/Ablation study```.
 
 - If you wang to run ```HGLMA```, please download pre-trained node embedding files for all metabolites **`metabolite_emb_2816.pkl`** ([download link](https://drive.google.com/file/d/1-21en06Ds1Bo11ljRYP-1qelxAb91QJb/view?usp=sharing)) and place it in the `data` folder.
 - To run the code, you need to navigate to the corresponding folder first, then type "python3 main.py" in your terminal.
