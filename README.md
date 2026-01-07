@@ -87,15 +87,5 @@ In addition, users are required to install the ```cplex``` solver (https://www.i
 ### Gap-fillings and Metabolic Phenotype Predictions
 
 - The codes of gap-fillings and metabolic phenotype predictions are available in the folder ```HGLMA_gapfilling```.
-- We can run the script
-- We can run the script 
-
-- 
-- If you wang to run ```HGLMA```, please download pre-trained node embedding files for all metabolites **`metabolite_emb_2816.pkl`** ([download link](https://drive.google.com/file/d/1-21en06Ds1Bo11ljRYP-1qelxAb91QJb/view?usp=sharing)) and place it in the `data` folder.
-- To run the code, you need to navigate to the corresponding folder first, then type "python3 main.py" in your terminal.
-
-
-### Prepare your input files
-
-1. The folder ```HGLMA_gapfilling/BiGG Models``` contains 1 GEM from Zimmermann et al. as examples. GEM is a xml file.
-2. The folder ```HGLMA_gapfilling/data/pools``` need to contain a reaction pool under name ```bigg_universe.xml```. Each pool is a GEM that has the extension ```.xml```. To use your own pool, remember to rename it to ```universe.xml```. Also remember to edit ```EX_SUFFIX``` and ```NAMESPACE``` in the input_parameters.txt to specify the suffix of exchange reactions and which namespace of biochemical reaction database is used. For ```NAMESPACE```, we currently only support ```bigg```.
+- We can run the script ```HGLMA_gapfilling\main.py``` to conduct gap-fillings and phyenotype predictions of 9 fermentation products for 24 draft GEMs. 
+- The folder ```Data/Trained model/Trained_model (gap-filling)``` contains the trained HGLMA model for Escherichia coli str. K-12 substr. MG1655 in the gap-filling process. 
