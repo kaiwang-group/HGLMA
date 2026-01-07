@@ -12,7 +12,7 @@ The overall framework of HGLMA is shown in the following figure.
 
 ## Description
 There are totally six folders, which are briefly described as below.   
-- The folder ```Data``` contains the datasets for training and testing of HGLMA, and contains the summarized experimental results that are also available in the supplementary materials.
+- The folder ```Data``` contains the datasets for training and testing HGLMA, and contains the summarized experimental results that are also available in the supplementary materials.
 - The folder ```HGLMA_embeddings``` contains the codes for multi-dimensional metabolite feature extractions.
 - The folder ```HGLMA_prediction``` contains the codes and corresponding files for the evaluation of reaction prediction performances. 
 - The folder ```HGLMA_recovery``` contains the codes and corresponding files for the evaluation of reaction recovery.
@@ -88,4 +88,4 @@ In addition, users are required to install the ```cplex``` solver (https://www.i
 
 - The codes of gap-fillings and metabolic phenotype predictions are available in the folder ```HGLMA_gapfilling```.
 - We can run the script ```HGLMA_gapfilling\main.py``` to conduct gap-fillings and phyenotype predictions of 9 fermentation products for 24 draft GEMs. 
-- The folder ```Data/Trained model/Trained_model (gap-filling)``` contains the trained HGLMA model for Escherichia coli str. K-12 substr. MG1655 in the gap-filling process. 
+- The folder ```Data/Trained model/Trained_model (gap-filling)``` contains the trained HGLMA model for Escherichia coli str. K-12 substr. MG1655 (one of 24 organisms) in the gap-filling process. 
