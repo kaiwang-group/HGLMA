@@ -71,8 +71,8 @@ In addition, users are required to install the ```cplex``` solver (https://www.i
 
 ### Evaluation of reaction recovery
 
-- The codes are available in the folder ```HGLMA_prediction``` for evaluting reaction recovery performances of HGLMA.
-- We can run the script ```HGLMA_prediction/main.py``` to conduct 5-fold cross-validations for evaluting reaction prediction performances of HGLMA on 108 GEMs. 
+- The codes are available in the folder ```HGLMA_recovery``` for evaluting reaction recovery performances of HGLMA.
+- We can run the script ```HGLMA_recovery/main.py``` to evaluate reaction recovery performances of HGLMA on 108 GEMs. 
 - The folder ```Data/Trained model/Trained_model (recovery)/iBWG_1329``` contains the trained HGLMA models for 5-fold cross-validations on iBWG_1329 (one of the 108 GEMs). 
 - The evaluation results of reaction recovery performances by HGLMA and baseline methods are summarized and available in ```Data/Evaluation of reaction recovery```.
 
@@ -84,8 +84,13 @@ In addition, users are required to install the ```cplex``` solver (https://www.i
 - For instance, we can run the script ```HGLMA_ablation/HGLMA - v1/main.py``` to conduct 5-fold cross-validations  of the variant HGLMA-v1 on 108 GEMs.
 - The results of the ablation study are summarized and available in  ```Data/Ablation study```.
 
+### Gap-fillings and Metabolic Phenotype Predictions
 
+- The codes of gap-fillings and metabolic phenotype predictions are available in the folder ```HGLMA_gapfilling```.
+- We can run the script
+- We can run the script 
 
+- 
 - If you wang to run ```HGLMA```, please download pre-trained node embedding files for all metabolites **`metabolite_emb_2816.pkl`** ([download link](https://drive.google.com/file/d/1-21en06Ds1Bo11ljRYP-1qelxAb91QJb/view?usp=sharing)) and place it in the `data` folder.
 - To run the code, you need to navigate to the corresponding folder first, then type "python3 main.py" in your terminal.
 
