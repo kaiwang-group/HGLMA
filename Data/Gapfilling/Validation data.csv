@@ -1,0 +1,145 @@
+Models,Methods,AUPRC,Recall,F1,Precision
+Aminobacterium colombiense DSM 12261,Draft,0.2222,0,0,0
+Aminobacterium colombiense DSM 12261,Random,0.2222,0,0,0
+Aminobacterium colombiense DSM 12261,Cheshire,0.2222,0,0,0
+Aminobacterium colombiense DSM 12261,CLOSEgaps,0.2222,0,0,0
+Aminobacterium colombiense DSM 12261,MuSHIN,0.2222,0,0,0
+Aminobacterium colombiense DSM 12261,HGLMA_100,0.2111,0.5,0.2857,0.2
+Anaerobutyricum halli DSM 3353,Draft,0.1111,0,0,0
+Anaerobutyricum halli DSM 3353,Random,0.1111,0,0,0
+Anaerobutyricum halli DSM 3353,Cheshire,0.1111,0,0,0
+Anaerobutyricum halli DSM 3353,CLOSEgaps,0.1111,0,0,0
+Anaerobutyricum halli DSM 3353,MuSHIN,0.1111,0,0,0
+Anaerobutyricum halli DSM 3353,HGLMA_100,0.1111,0,0,0
+Anaerotignum propionicum DSM 1682,Draft,0.2222,0,0,0
+Anaerotignum propionicum DSM 1682,Random,0.2222,0,0,0
+Anaerotignum propionicum DSM 1682,Cheshire,0.2222,0,0,0
+Anaerotignum propionicum DSM 1682,CLOSEgaps,0.2222,0,0,0
+Anaerotignum propionicum DSM 1682,MuSHIN,0.2111,0.5,0.2857,0.2
+Anaerotignum propionicum DSM 1682,HGLMA_100,0.1944,0.5,0.25,0.1667
+Bacteroides thetaiotaomicron VPI-5482,Draft,0.2222,0,0,0
+Bacteroides thetaiotaomicron VPI-5482,Random,0.2222,0,0,0
+Bacteroides thetaiotaomicron VPI-5482,Cheshire,0.3333,0,0,0
+Bacteroides thetaiotaomicron VPI-5482,CLOSEgaps,0.3333,0,0,0
+Bacteroides thetaiotaomicron VPI-5482,MuSHIN,0.4444,0.6667,0.5714,0.5
+Bacteroides thetaiotaomicron VPI-5482,HGLMA_100,0.4444,0.6667,0.5714,0.5
+Bifidobacterium animalis subsp. lactis DSM 10140,Draft,0.2222,0,0,0
+Bifidobacterium animalis subsp. lactis DSM 10140,Random,0.2222,0,0,0
+Bifidobacterium animalis subsp. lactis DSM 10140,Cheshire,0.2222,0,0,0
+Bifidobacterium animalis subsp. lactis DSM 10140,CLOSEgaps,0.2222,0,0,0
+Bifidobacterium animalis subsp. lactis DSM 10140,MuSHIN,0.2222,0,0,0
+Bifidobacterium animalis subsp. lactis DSM 10140,HGLMA_100,0.2222,0,0,0
+Bifidobacterium longum subsp. infantis ATCC 15697,Draft,0.6667,0.8,0.8,0.8
+Bifidobacterium longum subsp. infantis ATCC 15697,Random,0.6667,0.8,0.8,0.8
+Bifidobacterium longum subsp. infantis ATCC 15697,Cheshire,0.6667,1,0.8,0.6667
+Bifidobacterium longum subsp. infantis ATCC 15697,CLOSEgaps,0.6667,1,0.8,0.6667
+Bifidobacterium longum subsp. infantis ATCC 15697,MuSHIN,0.5,1,0.6667,0.5
+Bifidobacterium longum subsp. infantis ATCC 15697,HGLMA_100,0.4,1,0.5714,0.4
+Clostridium acetobutylicum ATCC 824,Draft,0.5556,0,0,0
+Clostridium acetobutylicum ATCC 824,Random,0.5556,0,0,0
+Clostridium acetobutylicum ATCC 824,Cheshire,0.5556,0,0,0
+Clostridium acetobutylicum ATCC 824,CLOSEgaps,0.5556,0,0,0
+Clostridium acetobutylicum ATCC 824,MuSHIN,0.5556,0,0,0
+Clostridium acetobutylicum ATCC 824,HGLMA_100,0.4944,0.2,0.2222,0.25
+Clostridium butyricum KNU-L09,Draft,0.4444,0.6667,0.5714,0.5
+Clostridium butyricum KNU-L09,Random,0.4444,0.6667,0.5714,0.5
+Clostridium butyricum KNU-L09,Cheshire,0.4444,0.6667,0.5714,0.5
+Clostridium butyricum KNU-L09,CLOSEgaps,0.4444,0.6667,0.5714,0.5
+Clostridium butyricum KNU-L09,MuSHIN,0.3778,0.6667,0.5,0.4
+Clostridium butyricum KNU-L09,HGLMA_100,0.3778,0.6667,0.5,0.4
+Clostridium pasteurianum BC1,Draft,0.2222,0,0,0
+Clostridium pasteurianum BC1,Random,0.2222,0,0,0
+Clostridium pasteurianum BC1,Cheshire,0.2222,0,0,0
+Clostridium pasteurianum BC1,CLOSEgaps,0.2222,0,0,0
+Clostridium pasteurianum BC1,MuSHIN,0.2222,0,0,0
+Clostridium pasteurianum BC1,HGLMA_100,0.2222,0,0,0
+Clostridium perfringens ATCC 13124,Draft,0.6389,0.1667,0.25,0.5
+Clostridium perfringens ATCC 13124,Random,0.6389,0.1667,0.25,0.5
+Clostridium perfringens ATCC 13124,Cheshire,0.6389,0.1667,0.25,0.5
+Clostridium perfringens ATCC 13124,CLOSEgaps,0.7083,0.5,0.6,0.75
+Clostridium perfringens ATCC 13124,MuSHIN,0.7083,0.5,0.6,0.75
+Clostridium perfringens ATCC 13124,HGLMA_100,0.7083,0.5,0.6,0.75
+Cutibacterium acnes KPA171202,Draft,0.4444,0.6667,0.5714,0.5
+Cutibacterium acnes KPA171202,Random,0.4444,0.6667,0.5714,0.5
+Cutibacterium acnes KPA171202,Cheshire,0.4444,0.6667,0.5714,0.5
+Cutibacterium acnes KPA171202,CLOSEgaps,0.4444,0.6667,0.5714,0.5
+Cutibacterium acnes KPA171202,MuSHIN,0.4444,0.6667,0.5714,0.5
+Cutibacterium acnes KPA171202,HGLMA_100,0.3889,0.3333,0.4,0.5
+Enterococcus faecalis ATCC 19433,Draft,0.5556,0.5,0.3333,0.25
+Enterococcus faecalis ATCC 19433,Random,0.5556,0.5,0.3333,0.25
+Enterococcus faecalis ATCC 19433,Cheshire,0.5556,0.5,0.5714,0.6667
+Enterococcus faecalis ATCC 19433,CLOSEgaps,0.5556,0.5,0.5714,0.6667
+Enterococcus faecalis ATCC 19433,MuSHIN,0.6736,0.75,0.75,0.75
+Enterococcus faecalis ATCC 19433,HGLMA_100,0.6736,0.75,0.75,0.75
+Escherichia coli str. K-12 substr. MG1655,Draft,1,1,1,1
+Escherichia coli str. K-12 substr. MG1655,Random,1,1,1,1
+Escherichia coli str. K-12 substr. MG1655,Cheshire,1,1,1,1
+Escherichia coli str. K-12 substr. MG1655,CLOSEgaps,1,1,1,1
+Escherichia coli str. K-12 substr. MG1655,MuSHIN,0.8333,1,0.9091,0.8333
+Escherichia coli str. K-12 substr. MG1655,HGLMA_100,1,1,1,1
+Eubacterium ramulus ATCC 29099,Draft,0.3333,0,0,0
+Eubacterium ramulus ATCC 29099,Random,0.3333,0,0,0
+Eubacterium ramulus ATCC 29099,Cheshire,0.3333,0,0,0
+Eubacterium ramulus ATCC 29099,CLOSEgaps,0.3889,0.3333,0.4,0.5
+Eubacterium ramulus ATCC 29099,MuSHIN,0.3778,0.6667,0.5,0.4
+Eubacterium ramulus ATCC 29099,HGLMA_100,0.4444,0.6667,0.5714,0.5
+Eubacterium rectale ATCC 33656,Draft,0.3333,0,0,0
+Eubacterium rectale ATCC 33656,Random,0.3333,0,0,0
+Eubacterium rectale ATCC 33656,Cheshire,0.3333,0,0,0
+Eubacterium rectale ATCC 33656,CLOSEgaps,0.3889,0.3333,0.4,0.5
+Eubacterium rectale ATCC 33656,MuSHIN,0.5556,0.6667,0.6667,0.6667
+Eubacterium rectale ATCC 33656,HGLMA_100,0.75,1,0.8571,0.75
+Faecalibacterium prausnitzii A2-165,Draft,0.3333,0,0,0
+Faecalibacterium prausnitzii A2-165,Random,0.3333,0,0,0
+Faecalibacterium prausnitzii A2-165,Cheshire,0.3333,0,0,0
+Faecalibacterium prausnitzii A2-165,CLOSEgaps,0.3333,0.3333,0.3333,0.3333
+Faecalibacterium prausnitzii A2-165,MuSHIN,0.3333,0.3333,0.3333,0.3333
+Faecalibacterium prausnitzii A2-165,HGLMA_100,0.3333,0.3333,0.3333,0.3333
+Lactobacillus acidophilus NCFM,Draft,0.3611,0.5,0.5,0.5
+Lactobacillus acidophilus NCFM,Random,0.3611,0.5,0.5,0.5
+Lactobacillus acidophilus NCFM,Cheshire,0.3611,0.5,0.5,0.5
+Lactobacillus acidophilus NCFM,CLOSEgaps,0.2778,0.5,0.4,0.3333
+Lactobacillus acidophilus NCFM,MuSHIN,0.6667,1,0.8,0.6667
+Lactobacillus acidophilus NCFM,HGLMA_100,1,1,1,1
+Lactobacillus delbruecki subsp. bulgaricus ATCC 11842,Draft,0.2361,0.5,0.3333,0.25
+Lactobacillus delbruecki subsp. bulgaricus ATCC 11842,Random,0.2361,0.5,0.3333,0.25
+Lactobacillus delbruecki subsp. bulgaricus ATCC 11842,Cheshire,0.2361,0.5,0.3333,0.25
+Lactobacillus delbruecki subsp. bulgaricus ATCC 11842,CLOSEgaps,0.2778,0.5,0.4,0.3333
+Lactobacillus delbruecki subsp. bulgaricus ATCC 11842,MuSHIN,0.2361,0.5,0.3333,0.25
+Lactobacillus delbruecki subsp. bulgaricus ATCC 11842,HGLMA_100,0.2361,0.5,0.3333,0.25
+Lactobacillus plantarum WCFS1,Draft,0.3611,0.5,0.5,0.5
+Lactobacillus plantarum WCFS1,Random,0.3611,0.5,0.5,0.5
+Lactobacillus plantarum WCFS1,Cheshire,0.3611,0.5,0.5,0.5
+Lactobacillus plantarum WCFS1,CLOSEgaps,0.3611,0.5,0.5,0.5
+Lactobacillus plantarum WCFS1,MuSHIN,0.5,1,0.6667,0.5
+Lactobacillus plantarum WCFS1,HGLMA_100,0.5,1,0.6667,0.5
+Olsenella uli DSM 7084,Draft,0.3889,0.3333,0.4,0.5
+Olsenella uli DSM 7084,Random,0.3889,0.3333,0.4,0.5
+Olsenella uli DSM 7084,Cheshire,0.3889,0.3333,0.4,0.5
+Olsenella uli DSM 7084,CLOSEgaps,0.3333,0.3333,0.3333,0.3333
+Olsenella uli DSM 7084,MuSHIN,0.6,1,0.75,0.6
+Olsenella uli DSM 7084,HGLMA_100,0.6,1,0.75,0.6
+Prevotella bergensis DSM 17361,Draft,0.2222,0,0,0
+Prevotella bergensis DSM 17361,Random,0.2222,0,0,0
+Prevotella bergensis DSM 17361,Cheshire,0.2222,0,0,0
+Prevotella bergensis DSM 17361,CLOSEgaps,0.2222,0,0,0
+Prevotella bergensis DSM 17361,MuSHIN,0.2222,0,0,0
+Prevotella bergensis DSM 17361,HGLMA_100,0.2222,0,0,0
+Prevotella melaninogenica ATCC 25845,Draft,0.2222,0,0,0
+Prevotella melaninogenica ATCC 25845,Random,0.2222,0,0,0
+Prevotella melaninogenica ATCC 25845,Cheshire,0.2222,0,0,0
+Prevotella melaninogenica ATCC 25845,CLOSEgaps,0.2222,0,0,0
+Prevotella melaninogenica ATCC 25845,MuSHIN,0.6111,0.5,0.6667,1
+Prevotella melaninogenica ATCC 25845,HGLMA_100,0.3611,0.5,0.5,0.5
+Thermotoga maritima MSB8,Draft,0.1111,0,0,0
+Thermotoga maritima MSB8,Random,0.1111,0,0,0
+Thermotoga maritima MSB8,Cheshire,0.1111,0,0,0
+Thermotoga maritima MSB8,CLOSEgaps,0.1111,0,0,0
+Thermotoga maritima MSB8,MuSHIN,0.1111,0,0,0
+Thermotoga maritima MSB8,HGLMA_100,0.1111,0,0,0
+Zymomonas mobilis subsp. mobilis ATCC 10988,Draft,0.1111,0,0,0
+Zymomonas mobilis subsp. mobilis ATCC 10988,Random,0.1111,0,0,0
+Zymomonas mobilis subsp. mobilis ATCC 10988,Cheshire,0.1111,0,0,0
+Zymomonas mobilis subsp. mobilis ATCC 10988,CLOSEgaps,0.1111,0,0,0
+Zymomonas mobilis subsp. mobilis ATCC 10988,MuSHIN,0.1111,0,0,0
+Zymomonas mobilis subsp. mobilis ATCC 10988,HGLMA_100,0.1111,0,0,0
